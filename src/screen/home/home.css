@@ -1,0 +1,96 @@
+.content{
+
+  margin-top: 22%;
+ 
+  margin-left: 10%;
+}
+.uni{
+  font-size: 3.5rem;
+  font-family: 'lemonada',sans-serif;
+  font-weight: bolder;
+  text-shadow: .1rem .1rem .3rem #333;
+  color:#4070f4 
+}
+
+.thieduni{
+font-size: 1.6rem;
+color: black;
+font-family: 'lemonada',sans-serif;
+
+}
+.btnuni{
+  
+ border: #4070f4 2px solid;
+  color:#4070f4 ;
+ font-size: 15px;
+  width: 10rem;
+  font-family: 'lemonada',sans-serif;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background-color: white;
+
+}
+
+
+.changecolor{
+  color: black;
+  font-size: 40px;
+  font-family: 'lemonada',sans-serif;
+
+}
+.special{
+  color:#4070f4 ;
+}
+.imagedesing{
+
+background-color: #4070f4;
+
+margin-left: 6%;
+margin-top: 20%;
+border-radius: 30% 70% 70% 30% / 40% 30% 70% 70%;
+width: 75%;
+height: 350px;
+max-height: 350px;
+max-width: 75%;
+
+
+}
+.imagedesing{
+background-image: url(../../assets/taha2.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position-x: center;
+
+}
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+span {
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'lemonada',sans-serif;  
+  font-size: 18px;
+  color: #4070f4;
+  margin: 0 auto;
+}
+
+/* Animation */
+span {
+  animation: animated-text 20s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 472px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgb(255, 255, 255);}
+  to{border-right-color: transparent;}
+}
