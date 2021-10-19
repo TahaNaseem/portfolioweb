@@ -2,9 +2,11 @@ import React from 'react'
 import './home.css'
 import imge from '../../assets/taha2.png'
 
-
-
-
+import Navbar from '../../component/navbar/nav';
+import About from '../about us/about';
+import Work from '../Work/work';
+import Contact from '../contact/contact';
+import tahapdf from '../../assets/taha.pdf'
 
 function Home() {
 
@@ -69,7 +71,8 @@ function Home() {
 
      
     <div className="main">
-    
+    <div><Navbar/></div>
+
   
 
 <div class="row">
@@ -81,7 +84,7 @@ function Home() {
     <p className="thieduni"><b>And i am a <span class="txt-rotate"
      data-period="2000"
      data-rotate='[ "Frontend Developer","Reactjs Developer" ]'></span> </b></p>
-  <button className="btnuni"><b>Hire me</b></button></div>
+  <a href={tahapdf}><button className="btnuni"><b>View CV</b></button></a></div>
     
        
          </div>
@@ -100,6 +103,10 @@ function Home() {
 
     </div>
 
+    <div className="about-pagemargin"><About/></div>
+
+    <div ><Work/></div>
+     <div className="contact-pagemargin"><Contact/></div>
     </div>
 
 

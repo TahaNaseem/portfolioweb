@@ -1,0 +1,69 @@
+.skill-1{
+    width: 90%;
+}
+
+.skill-2{
+    width: 70%;
+}
+.skill-3{
+    width: 50%;
+}
+.skill-4{
+    width: 80%;
+}
+.skill-5{
+    width: 65%;
+}
+.ab{
+    font-size: 3.8rem;
+    margin-bottom: 4%;
+    font-family: 'lemonada',sans-serif;
+    font-weight: bolder;
+    text-shadow: .1rem .1rem .3rem #333;
+    color:#4070f4 ;
+
+    
+  }
+  .skill-mf{
+      width: 100%;
+      margin-left: 40px;
+      margin-top: 8%;
+  }
+  
+  .about-main{
+      width: 80%;
+     
+  }
+  
+  .ro{
+    display: flex;
+    flex-direction: row;
+   padding-bottom: 0px;
+  margin-top: 15px;
+  
+}
+
+.text{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 1.25rem;
+   margin-left: 65px;
+   font-weight: 300;
+   margin-top: 8%;
+  font-style: oblique;
+ 
+}
+.s1{
+    margin-left: 70%;
+}
+.s2{
+    margin-left: 74%;
+}
+.s3{
+    margin-left: 66%;
+}
+.s4{
+    margin-left: 66%;
+}
+.s5{
+    margin-left: 70%;
+}

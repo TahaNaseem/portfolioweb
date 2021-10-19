@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-gap: 15px;
+}
+
+.gallery img{
+    width: 100%;
+   border-radius: 5px;
+   box-shadow: 0 3px 5px #000;
+   background-repeat: no-repeat;
+   height: 80%;
+}
+.gallery a img:hover{
+    transform:scale(1.2)
+}

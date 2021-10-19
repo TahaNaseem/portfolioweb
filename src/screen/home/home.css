@@ -45,7 +45,7 @@ font-family: 'lemonada',sans-serif;
 
 background-color: #4070f4;
 
-margin-left: 6%;
+margin-left: 12%;
 margin-top: 20%;
 border-radius: 30% 70% 70% 30% / 40% 30% 70% 70%;
 width: 75%;
@@ -93,4 +93,11 @@ span {
 @keyframes animated-cursor{
   from{border-right-color: rgb(255, 255, 255);}
   to{border-right-color: transparent;}
+}
+.about-pagemargin{
+  margin-top: 15%;
+  margin-bottom: 11%;
+}
+.contact-pagemargin{
+  margin-top: 15%;
 }

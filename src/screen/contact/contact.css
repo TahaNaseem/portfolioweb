@@ -1,0 +1,104 @@
+.inpu{
+    width: 300px;
+    height: 40px;
+    background: none;
+  outline: none;
+  border: 2px solid white;
+border-radius: 3px;
+color: whitesmoke;
+transition: 3s;
+}
+
+.inpu2{
+    margin-top: 20px;
+    width: 300px;
+    margin-top: 5%;
+    height: 40px;
+    outline: none;
+    background-color: rgba(63, 96, 202, 0.932);
+    border-radius: 3px;
+    border: none;
+    color: whitesmoke;
+    background: none;
+    border: 2px solid white;
+}
+.contactinput{
+    margin-left: 9%;
+    margin-top: 8%;
+}
+
+::placeholder {
+    padding-left: 9px;
+    color: whitesmoke;
+}
+.inpu3{
+    height: 180px;
+    margin-top: 20px;
+    width: 300px;
+    margin-top: 5%;
+    outline: none;
+    background-color: rgba(63, 96, 202, 0.932);
+    border-radius: 3px;
+    border: none;
+    color: whitesmoke;
+    background: none;
+    border: 2px solid white;
+}
+.sub{
+    width: 80px;
+    height: 40px;
+    margin-top: 2%;
+    border-radius: 5px;
+    background-color: rgba(63, 96, 202, 0.932);
+    color: whitesmoke;
+    border-radius: 3px;
+    border: none;
+    
+}
+.seconconatct{
+    margin-left: 9%;
+    margin-top: 8%;
+}
+.i1{
+    margin-top: 9%;
+    color: whitesmoke;
+}
+.bg{
+    background-image: url(../../assets/contactimage.jpeg);
+    width: 100%;
+  
+    max-width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.get{
+    color: whitesmoke;
+    border-bottom: 3px  solid;
+}
+.maincontain{
+    width: 90%;
+}
+.locicon{
+    width: 25px;
+    height: 25px;
+    margin-right: 9px;
+}
+.fbicon{
+    width: 40px;
+    height: 40px;
+    margin-top: 13%;
+    margin-left: 50px;
+    background-color: white;
+   border-radius: 4px;
+   margin-bottom: 33px;
+}
+.giticon{
+    width: 40px;
+    height: 40px;
+    margin-top: 13%;
+    margin-left: 20px;
+    background-color: white;
+   border-radius: 4px;
+   margin-bottom: 33px;
+}
